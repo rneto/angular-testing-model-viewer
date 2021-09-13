@@ -8,7 +8,8 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'Angular ' + VERSION.major;
+  name = `Angular ${VERSION.major} testing model-viewer`;
+  
   camera_orbit = '45deg 55deg 2.5m';
   src = 'https://modelviewer.dev/shared-assets/models/Astronaut.glb';
 }

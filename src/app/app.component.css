@@ -3,6 +3,8 @@ p {
 }
 
 model-viewer {
-  height: 100vw;
-  width: 100%;
+  position: relative;
+  float: left;
+  height: 50vw;
+  width: 50%;
 }
