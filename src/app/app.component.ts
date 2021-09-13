@@ -1,5 +1,4 @@
 import { Component, VERSION } from '@angular/core';
-import '@google/model-viewer';
 
 @Component({
   selector: 'my-app',
