@@ -1,4 +1,6 @@
 import { Component, VERSION } from '@angular/core';
+// When no stackblitz project, uncomment this line and comment line 56 in polyfills.ts.
+// import '@google/model-viewer';
 
 @Component({
   selector: 'my-app',

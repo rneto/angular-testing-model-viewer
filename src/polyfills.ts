@@ -50,6 +50,9 @@
  */
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
+/**
+ * Import @google/model-viewer must be there to model-viewer run in stackblitz.
+ */
 import '@google/model-viewer';
 
 /***************************************************************************************************
