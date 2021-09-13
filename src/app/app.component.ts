@@ -9,4 +9,6 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
+  camera_orbit = '45deg 55deg 2.5m';
+  src = 'https://modelviewer.dev/shared-assets/models/Astronaut.glb';
 }

@@ -5,7 +5,18 @@
 
 <model-viewer
   camera-controls
-  camera-orbit="0deg 90deg 105%"
+  [attr.camera-orbit]="camera_orbit"
+  [attr.src]="src"
+  alt="A 3D model of an astronaut"
+  data-js-focus-visible=""
+  ar-status="not-presenting"
+>
+</model-viewer>
+
+
+<model-viewer
+  camera-controls
+  camera-orbit="45deg 55deg 2.5m"
   src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
   alt="A 3D model of an astronaut"
   data-js-focus-visible=""
