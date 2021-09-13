@@ -1,3 +1,8 @@
 p {
   font-family: Lato;
 }
+
+model-viewer {
+  height: 100vw;
+  width: 100%;
+}
